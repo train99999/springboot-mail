@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    hello,<span th:text="${username}"></span>,欢迎加入大家庭!!!!
+</div>
+您的入职信息如下:
+<table border="1">
+    <tr>
+        <td>职位</td>
+        <td th:text="${position}"></td>
+    </tr>
+    <tr>
+        <td>职称</td>
+        <td th:text="${joblevel}"></td>
+    </tr>
+    <tr>
+        <td>薪水</td>
+        <td th:text="${joblevel}"></td>
+    </tr>
+    <tr>
+        <td>部门</td>
+        <td th:text="${dep}"></td>
+    </tr>
+</table>
+</body>
+</html>
